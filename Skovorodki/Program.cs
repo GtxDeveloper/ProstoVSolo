@@ -4,4 +4,12 @@ using Skovorodki;
 
 var connection = new SkovorodkiConnection();
 
-connection.GetSkovorodki();
+var skovorodki = connection.GetSkovorodki();
+
+var brands = connection.GetBrand();
+
+Console.WriteLine(skovorodki[0].Name);
+foreach (var b in brands)
+{
+    Console.WriteLine(b);
+}
