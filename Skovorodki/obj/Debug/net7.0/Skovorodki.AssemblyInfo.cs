@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Skovorodki")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2b48312bcc0d00a189524221e134ec44e33f8a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Skovorodki")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Skovorodki")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
