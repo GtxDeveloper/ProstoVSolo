@@ -8,8 +8,9 @@ var skovorodki = connection.GetSkovorodki();
 
 var brands = connection.GetBrand();
 
-Console.WriteLine(skovorodki[0].Name);
-foreach (var b in brands)
-{
-    Console.WriteLine(b);
-}
+
+using var database = new SkovorodkiDatabase("skovorodki.db");
+
+database.AddProdusers(brands);
+
+database.AddSkovorodki(skovorodki,brands);
